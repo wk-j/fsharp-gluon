@@ -1,3 +1,7 @@
-## FSharp Glueon
+## Test Gluon
 
-Test Gluon
+#### // Build
+
+```
+msbuild GluonWeb/GluonWeb.fsproj
+```

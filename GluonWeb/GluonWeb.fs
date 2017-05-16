@@ -6,13 +6,15 @@ open System
 open Microsoft.Owin.Hosting
 open System.Web.Http
 
-[<Remote(Verb="GET")>]
-let hello() =
-    "Hello, world"
+module GluonApi =
 
-[<Remote(Verb="GET")>]
-let hi() =
-    "Hi"
+    [<Remote(Verb="GET")>]
+    let hello() =
+        "Hello, world"
+
+    [<Remote(Verb="GET")>]
+    let hi() =
+        "Hi"
 
 type HomeController() = 
     inherit ApiController() 
