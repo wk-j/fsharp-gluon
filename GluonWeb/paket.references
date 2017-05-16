@@ -1,0 +1,7 @@
+FSharp.Core
+Owin
+Microsoft.Owin
+Newtonsoft.Json
+Gluon
+Gluon.Client
+Microsoft.AspNet.WebApi.OwinSelfHost

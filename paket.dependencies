@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+nuget FAKE
+nuget FSharp.Core
+nuget Gluon
+nuget Gluon.Client
+nuget Microsoft.AspNet.WebApi.OwinSelfHost
+nuget Microsoft.Owin
+nuget Newtonsoft.Json
+nuget Owin
