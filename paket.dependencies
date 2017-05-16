@@ -5,5 +5,6 @@ nuget Gluon
 nuget Gluon.Client
 nuget Microsoft.AspNet.WebApi.OwinSelfHost
 nuget Microsoft.Owin
+nuget Microsoft.Owin.StaticFiles
 nuget Newtonsoft.Json
 nuget Owin

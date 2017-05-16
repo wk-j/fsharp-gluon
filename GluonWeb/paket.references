@@ -5,3 +5,4 @@ Newtonsoft.Json
 Gluon
 Gluon.Client
 Microsoft.AspNet.WebApi.OwinSelfHost
+Microsoft.Owin.StaticFiles
