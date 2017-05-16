@@ -12,7 +12,7 @@ module.exports = {
         ]
     },
     output: {
-        filename: "./dist/bundle.js",
+        filename: "./GluonWeb/www/dist/bundle.js",
     },
     devtool: 'source-map',
     resolve: {
@@ -32,7 +32,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new webpack.optimize.CommonsChunkPlugin({ name: "vendor", filename: "./dist/vendor.bundle.js" }),
+        new webpack.optimize.CommonsChunkPlugin({ name: "vendor", filename: "./GluonWeb/www/dist/vendor.bundle.js" }),
         /*
         new HtmlWebpackPlugin({
           title: "Web",
